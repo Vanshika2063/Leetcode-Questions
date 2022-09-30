@@ -3,12 +3,17 @@
 
 ### It has three folder EASY, MEDIUM, HARD, solve the question of LEETCODE and make a PR according to its level
 
- 1. fork a repository & star
- 2. clone a repository: git clone <https://github.com/ your github user name /Leetcode-Questions.git
- 3. git remote add origin https://github.com/ your github user name /Leetcode-Questions.git
-### after changes in folders---------------------------------------------------------------------------
+ 1. fork repository.
+ 2. clone repository.
+ 3. now code.
+
+### after coding in folders---------------------------------------------------------------------------
  git add . 
  <br>
- git commit -m" write a file name here "
+ git commit -m"a meaningful message!"
  <br>
  git push origin main 
+ 
+### Then make PR!!
+
+### Here is my twitter account:- <h4><a href="https://twitter.com/Vanshika2063">Vanshika2063</a></h4>
