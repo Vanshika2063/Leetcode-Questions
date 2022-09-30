@@ -6,7 +6,7 @@
  1. fork a repository & star
  2. clone a repository: git clone <https://github.com/ your github user name /Leetcode-Questions.git
  3. git remote add origin https://github.com/ your github user name /Leetcode-Questions.git
-### after changes in folders----------------------------------------------
+### after changes in folders---------------------------------------------------------------------------
  git add . 
  <br>
  git commit -m" write a file name here "
