@@ -3,8 +3,11 @@
 I have created a repository named <strong>"LEETCODE"</strong>, it has 3 folders, and all these folders contains level wise question
 
 <br>
+<br>
 <strong>Name: Easy, Medium, Hard</strong>
 
+<br>
+<br>
 <br>
 
 ![Hactoberfest](Hacktoberfest2022.png)
