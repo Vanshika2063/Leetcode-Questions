@@ -21,4 +21,8 @@
 
 # Please share it on social media and tag me on twitter
 
-### Here is my twitter account:- <h4><a href="https://twitter.com/Vanshika2063">Vanshika2063</a></h4>
+### Here is my twitter account:- 
+
+<a href="https://twitter.com/Vanshika2063">
+  <img width="70px" src="twitter.png"  />
+</a>
