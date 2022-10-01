@@ -16,6 +16,12 @@ I have created a repository named <strong>"LEETCODE"</strong>, it has 3 folders,
 <br>
 <br>
 
+# Must read [Contribution](CONTRIBUTING.md) file
+
+<br>
+<br>
+<br>
+
 # Please share it on social media and tag me on twitter
 
 <h3>Here is my Twitter Account</h3>
