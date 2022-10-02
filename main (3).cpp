@@ -1,14 +1,8 @@
-
-#include <iostream>
-#include <math.h>
-
-using namespace std;
-
-int main()
-{
-    int a,b,c;
-    cin>>a>>b>>c;
-    cout<<"Max of three numbers is:"<<max(a,max(b,c));
-
-    return 0;
-}
+class Solution {
+public:
+    int maximumProduct(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int n = nums.size();
+        return max(nums[n-1]*nums[n-2]*nums[n-3],nums[0]*nums[1]*nums[n-1]);
+    }
+};
