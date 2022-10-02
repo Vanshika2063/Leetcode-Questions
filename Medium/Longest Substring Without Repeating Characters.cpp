@@ -42,8 +42,7 @@ public:
             temp--;
             i=reset_i++;
             ans = max(ans,temp);
-            temp=0;
-        }
+            temp=0;}
     }
    return max(ans,temp);
 }
