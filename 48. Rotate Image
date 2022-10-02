@@ -1,0 +1,17 @@
+48. Rotate Image
+https://leetcode.com/problems/rotate-image/
+//most asked question in interviews,
+//leetcode medium
+
+
+
+//python solution using for loop, easy and efficient 
+
+class Solution:
+  def rotate(self, matrix: List[List[int]]) -> None:
+    new_matrix = copy.deepcopy(matrix)
+    i = len(matrix) - 1
+    for x in range(len(matrix)):
+        for y, n in enumerate(new_matrix[x]):
+            matrix[y][i] = n
+        i -= 1
