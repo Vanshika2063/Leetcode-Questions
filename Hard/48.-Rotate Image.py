@@ -1,11 +1,11 @@
-48. Rotate Image
-https://leetcode.com/problems/rotate-image/
-//most asked question in interviews,
-//leetcode medium
+#48. Rotate Image
+#https://leetcode.com/problems/rotate-image/
+#most asked question in interviews,
+#leetcode medium
 
 
 
-//python solution using for loop, easy and efficient 
+#python solution using for loop, easy and efficient 
 
 class Solution:
   def rotate(self, matrix: List[List[int]]) -> None:
