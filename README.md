@@ -25,6 +25,13 @@ I have created a repository named <strong>"LEETCODE"</strong>, it has 3 folders,
 <br>
 <br>
 
+# Have a look this amazing repository
+###     [eBOOKS](https://github.com/Vanshika2063/eBOOKS)
+  
+ <br>
+<br>
+<br>
+
 # Let's connect with each other 
 ### Check out Our [Discussion](https://github.com/Vanshika2063/Leetcode-Questions/discussions)
 
