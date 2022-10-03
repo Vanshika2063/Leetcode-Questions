@@ -1,0 +1,12 @@
+90. Subsets II
+https://leetcode.com/problems/subsets-ii/
+
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        counter = Counter(nums)
+        res = [[]]
+        
+        for k, v in counter.items():
+            res += [x + i * [k] for x in res for i in range(1, v+1)]
+            
+        return res
