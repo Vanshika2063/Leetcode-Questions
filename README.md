@@ -4,7 +4,10 @@ I have created a repository named <strong>"LEETCODE"</strong>, it has 3 folders,
 
 <br>
 <br>
-<strong>Name: Easy, Medium, Hard</strong>
+
+* Easy
+* Medium
+* Hard</strong>
 
 <br>
 <br>
@@ -17,6 +20,13 @@ I have created a repository named <strong>"LEETCODE"</strong>, it has 3 folders,
 <br>
 
 # Must read [Contribution](CONTRIBUTING.md) file
+
+<br>
+<br>
+<br>
+
+# Let's connect with each other 
+### Check out Our [Discussion](https://github.com/Vanshika2063/Leetcode-Questions/discussions)
 
 <br>
 <br>
