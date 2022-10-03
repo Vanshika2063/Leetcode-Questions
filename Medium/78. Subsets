@@ -1,8 +1,6 @@
 78. Subsets
 https://leetcode.com/problems/subsets/
 
-
-
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         
@@ -29,5 +27,3 @@ class Solution:
                 newItem.append(i)
                 arr.append(newItem)
         return arr
-                
-    
