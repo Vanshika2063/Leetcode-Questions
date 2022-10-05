@@ -15,7 +15,7 @@
  git push origin main 
  
 ### . Then make PR!!
-### . Add question link also
+### . Add question link also in your code
  BACK TO [README.md](https://github.com/Vanshika2063/Leetcode-Questions/blob/main/README.md)
 <br>
 <br>
