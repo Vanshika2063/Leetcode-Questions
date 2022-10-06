@@ -1,3 +1,5 @@
+//Code by Ashwani-de
+
 // Problem statement :-
 
 // The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
@@ -16,70 +18,61 @@
 using namespace std;
 class Solution
 {
+  vector<vector<string>> ans;
+
 public:
-  bool isSafe(int row, int col, vector<string> &board, int n)
+  bool isSafe(int r, int c, vector<string> &v, int n)
   {
-    int duprow = row;
-    int dupcol = col;
+    for (int i = 0; i <= r; i++)
+    {
+      if (v[i][c] == 'Q')
+        return false;
+    }
+
+    int row = r, col = c;
+
     while (row >= 0 && col >= 0)
     {
-      if (board[row][col] == 'Q')
-      {
+      if (v[row][col] == 'Q')
         return false;
-      }
-      row--;
-      col--;
+      row--, col--;
     }
-    col = dupcol;
-    row = duprow;
-    while (col >= 0)
+
+    row = r, col = c;
+
+    while (row >= 0 && col < n)
     {
-      if (board[row][col] == 'Q')
-      {
+      if (v[row][col] == 'Q')
         return false;
-      }
-      col--;
-    }
-    col = dupcol;
-    row = duprow;
-    while (row < n && col >= 0)
-    {
-      if (board[row][col] == 'Q')
-      {
-        return false;
-      }
-      row++;
-      col--;
+      row--, col++;
     }
     return true;
   }
-  void solve(int col, vector<string> &board, vector<vector<string>> &ans, int n)
+
+  void helper(int r, int n, vector<string> &v)
   {
-    if (col == n)
+    if (r == n)
     {
-      ans.push_back(board);
+      ans.push_back(v);
       return;
     }
     for (int i = 0; i < n; i++)
     {
-      if (isSafe(i, col, board, n))
+      if (isSafe(r, i, v, n))
       {
-        board[i][col] = 'Q';
-        solve(col + 1, board, ans, n);
-        board[i][col] = '.';
+        v[r][i] = 'Q';
+        helper(r + 1, n, v);
+        v[r][i] = '.';
       }
     }
   }
   vector<vector<string>> solveNQueens(int n)
   {
-    vector<string> board(n);
-    vector<vector<string>> ans;
+    vector<string> v;
     string s(n, '.');
     for (int i = 0; i < n; i++)
-    {
-      board[i] = s;
-    }
-    solve(0, board, ans, n);
+      v.push_back(s);
+    helper(0, n, v);
     return ans;
   }
 };
